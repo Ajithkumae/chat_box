@@ -1,0 +1,9 @@
+export const onboarding1 = require('../Assets/Images/onboarding-1.png');
+export const onboarding2 = require('../Assets/Images/onboarding-2.png');
+export const onboarding3 = require('../Assets/Images/onboarding-3.png');
+export const tickIcon = require('../Assets/Images/tick.png');
+export const backword = require('../Assets/Images/back.png');
+export const forword = require('../Assets/Images/forward.png');
+export const close = require('../Assets/Images/close.png');
+export const down = require('../Assets/Images/down.png');
+export const up = require('../Assets/Images/up.png');
