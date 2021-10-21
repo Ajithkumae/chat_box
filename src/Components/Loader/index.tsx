@@ -1,10 +1,10 @@
-import { ActivityIndicator, View } from 'react-native';
+import {ActivityIndicator, View} from 'react-native';
 import React from 'react';
 import styles from './styles';
-import { COLORS } from '../../Utils/theme';
+import {COLORS} from '../../Utils/theme';
 
 const Loader = (props: any) => {
-  const { show } = props;
+  const {show} = props;
   if (!show) {
     return null;
   } else {

@@ -5,7 +5,7 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: COLORS.white,
+    backgroundColor: COLORS.shadGreen,
   },
   loginView: {
     alignSelf: 'center',
@@ -13,6 +13,10 @@ export default StyleSheet.create({
   },
   text: {
     fontSize: 18,
+  },
+  headerText: {
+    fontSize: 18,
+    color: COLORS.white,
   },
   inputText: {
     color: COLORS.gray,
@@ -31,10 +35,28 @@ export default StyleSheet.create({
     fontSize: 18,
   },
   borderColor: {
-    borderColor: COLORS.red,
+    borderColor: COLORS.white,
   },
   example: {
     alignSelf: 'center',
     fontSize: 20,
+  },
+  header: {
+    height: 60,
+    alignItems: 'center',
+    flexDirection: 'row',
+    backgroundColor: COLORS.darkBlue,
+    paddingLeft: 20,
+  },
+  loginBtn: {
+    width: '40%',
+    alignItems: 'center',
+    alignSelf: 'flex-end',
+  },
+  headerTitle: {
+    fontSize: 20,
+    color: COLORS.white,
+    fontWeight: '700',
+    marginLeft: 10,
   },
 });
