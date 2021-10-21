@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Animated, TextInput, View } from 'react-native';
-import { COLORS } from '../../Utils/theme';
-import styles, { returnAnimatedTitleStyles } from './styles';
-import { InputTypes } from '../../Model/types';
+import React, {useState} from 'react';
+import {Animated, TextInput, View} from 'react-native';
+import {COLORS} from '../../Utils/theme';
+import styles, {returnAnimatedTitleStyles} from './styles';
+import {InputTypes} from '../../Model/types';
 
 /**
  * Text
@@ -28,6 +28,7 @@ const InputText = (props: InputTypes) => {
     parentTextInputStyle,
     otherTextInputProps,
     borderColor,
+    placeholderSty,
   } = props;
   const [isFieldActive, setIsFieldActive] = useState(false);
   const [animationValue, setAnimationValue] = useState(false);
@@ -84,6 +85,7 @@ const InputText = (props: InputTypes) => {
               activeBorderColor,
               value,
             ),
+            placeholderSty && {backgroundColor: placeholderSty},
           ]}>
           {placeholder}
         </Animated.Text>
