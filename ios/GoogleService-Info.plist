@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>948135359729-pa2hrsd8945ce269e9rijirrolsgj4tg.apps.googleusercontent.com</string>
+	<string>1011313648750-bt4r4aifu8ur0lvpls32q2704i8mdj6k.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.948135359729-pa2hrsd8945ce269e9rijirrolsgj4tg</string>
+	<string>com.googleusercontent.apps.1011313648750-bt4r4aifu8ur0lvpls32q2704i8mdj6k</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBZeju6shoMe5vfpPcJoDC23WiNQTrNDCc</string>
+	<string>AIzaSyDCWsVfQT8pmSUTuPGBgOmfF9LxBSAYYOk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>948135359729</string>
+	<string>1011313648750</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.chatBox</string>
+	<string>org.reactjs.native.example.Check-Api</string>
 	<key>PROJECT_ID</key>
-	<string>chatbox-7ec3f</string>
+	<string>reactnativefirebase-accfd</string>
 	<key>STORAGE_BUCKET</key>
-	<string>chatbox-7ec3f.appspot.com</string>
+	<string>reactnativefirebase-accfd.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:948135359729:ios:4b36eca2cafd2cbddbe550</string>
+	<string>1:1011313648750:ios:96e3d355edd5cd65af727f</string>
+	<key>DATABASE_URL</key>
+	<string>https://reactnativefirebase-accfd-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

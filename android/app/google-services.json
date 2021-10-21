@@ -1,40 +1,41 @@
 {
   "project_info": {
-    "project_number": "948135359729",
-    "project_id": "chatbox-7ec3f",
-    "storage_bucket": "chatbox-7ec3f.appspot.com"
+    "project_number": "1011313648750",
+    "firebase_url": "https://reactnativefirebase-accfd-default-rtdb.firebaseio.com",
+    "project_id": "reactnativefirebase-accfd",
+    "storage_bucket": "reactnativefirebase-accfd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:948135359729:android:088cb149702ed4afdbe550",
+        "mobilesdk_app_id": "1:1011313648750:android:c744b6c9622b12c2af727f",
         "android_client_info": {
           "package_name": "com.chat_box"
         }
       },
       "oauth_client": [
         {
-          "client_id": "948135359729-qdamd5khtjcq2f1bd2de5996s5lma14a.apps.googleusercontent.com",
+          "client_id": "1011313648750-oog7o5h935kepkcm6cpa89iccc1vce8d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAG3LKDxVAve4lcFYtAvBCXJPfwREmnvtM"
+          "current_key": "AIzaSyAq1Axguh3mit1Jgd5lcsJaLXWnk8mlGFc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "948135359729-qdamd5khtjcq2f1bd2de5996s5lma14a.apps.googleusercontent.com",
+              "client_id": "1011313648750-oog7o5h935kepkcm6cpa89iccc1vce8d.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "948135359729-pa2hrsd8945ce269e9rijirrolsgj4tg.apps.googleusercontent.com",
+              "client_id": "1011313648750-bt4r4aifu8ur0lvpls32q2704i8mdj6k.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "org.reactjs.native.example.chatBox"
+                "bundle_id": "org.reactjs.native.example.Check-Api"
               }
             }
           ]

@@ -11,7 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		187B195E2721637C00CDE387 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187B195D2721637C00CDE387 /* GoogleService-Info.plist */; };
+		187B19602721943A00CDE387 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187B195F2721943A00CDE387 /* GoogleService-Info.plist */; };
 		2FC17F3F901CE766303ED2F5 /* libPods-chat_box.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A3EF4ED15D7DD2B05C18B3 /* libPods-chat_box.a */; };
 		436FCEC7D62B8DA66F262A39 /* libPods-chat_box-chat_boxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B9F14937769FC5EB722D09 /* libPods-chat_box-chat_boxTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = chat_box/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = chat_box/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = chat_box/main.m; sourceTree = "<group>"; };
-		187B195D2721637C00CDE387 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		187B195F2721943A00CDE387 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		45A3EF4ED15D7DD2B05C18B3 /* libPods-chat_box.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chat_box.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B9F14937769FC5EB722D09 /* libPods-chat_box-chat_boxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chat_box-chat_boxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B0C67FD9F56703D62A726E /* Pods-chat_box.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat_box.release.xcconfig"; path = "Target Support Files/Pods-chat_box/Pods-chat_box.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				187B195D2721637C00CDE387 /* GoogleService-Info.plist */,
+				187B195F2721943A00CDE387 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* chat_box */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* chat_boxTests */,
@@ -248,7 +248,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				187B195E2721637C00CDE387 /* GoogleService-Info.plist in Resources */,
+				187B19602721943A00CDE387 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
